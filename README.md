@@ -26,7 +26,8 @@ This project is a web-based system that helps detect and prevent fake product re
    npm install
    Run the backend server:
    nodemon server.js
-3. Frontend Setup
+   
+4. Frontend Setup
    Navigate to the frontend folder:
    cd client
    Install dependencies:
