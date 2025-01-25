@@ -1,0 +1,49 @@
+/* CustomNavbar.css */
+
+header {
+  background: #300;
+  padding: 1px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.custom-container {
+  max-width: 140rem;
+  padding: 1.2rem 2.4rem; /* Adjusted padding for a more compact look */
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.custom-logo-brand a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px; /* Adjusted font size for the brand */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Align the links to the right */
+.custom-navbar-links {
+  margin-left: auto;
+}

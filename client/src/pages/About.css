@@ -1,0 +1,29 @@
+
+
+
+.about {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    color: #fff; 
+    padding: 0 20px; 
+    height: 100vh; 
+  }
+  
+  
+  .about-content {
+    text-align: center; 
+  }
+  
+  
+  .about-content h2,
+  .about-content p {
+    margin-bottom: 20px; 
+  }
+  
+  
+  .about-content h2 {
+    font-size: 32px; 
+    font-weight: bold;
+  }
+  

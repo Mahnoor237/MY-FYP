@@ -1,0 +1,83 @@
+/* adminUsers.css */
+
+.navbar {
+    /* Styles for the navbar */
+    background-color: #333; /* Example background color */
+    color: white; /* Example text color */
+    padding: 10px; /* Example padding for the navbar */
+  }
+
+.admin-users-sections {
+    padding: 50px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.admin-users {
+    margin-top: 4px;
+    overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle; /* Align content vertically in cells */
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+    position: sticky;
+    top: 0; /* Stick the header row at the top */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row colors */
+}
+
+tbody tr:hover {
+    background-color: #ddd; /* Hover effect */
+}
+
+td:last-child {
+    text-align: center; /* Align the last column to the center */
+    vertical-align: middle; /* Align content vertically in cells */
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.edit-button, .delete-button {
+    padding: 6px 12px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #f2f2f2; /* Hover effect */
+}
+
+/* Adjust alignment for delete column header and data */
+th:nth-child(4),
+td:nth-child(4) {
+    text-align: center;
+    vertical-align: middle;
+}

@@ -1,0 +1,50 @@
+/* adminUpdate.css */
+
+/* Container styles */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Heading styles */
+.custom-main-heading {
+    margin-top: 50px; /* Adjust the margin-top value to move the heading down */
+    text-align: center; /* Center the heading horizontally */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* CustomAdminUpdate.css */
+
+/* Form section styles */
+.custom-section-form {
+    background-color: #f9f9f9;
+    padding: 40px; /* Adjust padding to increase size */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input styles */
+.custom-section-form input[type="text"],
+.custom-section-form input[type="email"] {
+    width: calc(100% - 40px); /* Adjust width to increase size */
+    padding: 15px; /* Adjust padding to increase size */
+    margin: 10px 0; /* Adjust margins to increase size */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+.custom-section-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px; /* Adjust padding to increase size */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-section-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}

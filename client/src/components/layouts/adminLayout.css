@@ -1,0 +1,43 @@
+/* adminNavbar.css */
+
+.admin-navbar {
+    background: #333;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 60px; /* Adjust top positioning if needed */
+    z-index: 1000;
+}
+
+.admin-container {
+    max-width: 140rem;
+    padding: 1.2rem 2.4rem; /* Adjusted padding for a more compact look */
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-logo-brand a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px; /* Adjusted font size for the brand */
+}
+
+.admin-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Align the items vertically in the center */
+}
+
+.admin-nav li {
+    margin: 0 15px;
+}
+
+.admin-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}

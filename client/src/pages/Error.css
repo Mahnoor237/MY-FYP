@@ -1,0 +1,49 @@
+/* Error page */
+#error-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #error-page .content {
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .content h2.header {
+    font-size: 6rem;
+    margin: 0;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  .content h4 {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #555; /* Adjust the color as needed */
+  }
+  
+  .content p {
+    color: #777; /* Adjust the color as needed */
+  }
+  
+  .content .btns {
+    margin-top: 25px;
+  }
+  
+  .content .btns a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff; /* Adjust the color as needed */
+    background-color: #333; /* Adjust the background color as needed */
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .content .btns a:hover {
+    background-color: #555; /* Adjust the hover background color as needed */
+  }
+  
