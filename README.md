@@ -27,6 +27,7 @@ This project is a web-based system that helps detect and prevent fake product re
    Run the backend server:
    nodemon server.js
    
+   
 4. Frontend Setup
    Navigate to the frontend folder:
    cd client
